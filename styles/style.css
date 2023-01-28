@@ -45,9 +45,10 @@
   font-family: 'Inter', 'Arial', sans-serif;
 }
 
-div, h1, h2, h3, section {
+/* это убрать, когда все доверстаешь. Чисто для проверки
+ div, h1, h2, h3, section {
   border: 1px solid red;
-}
+} */
 
 .header {
   height: 100vh;
@@ -60,14 +61,6 @@ div, h1, h2, h3, section {
 .header__square-pic {
   height: 568px;
   width: 568px;
-}
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
 }
 
 .description {
@@ -151,7 +144,6 @@ div, h1, h2, h3, section {
   justify-content: space-between;
   width: 1100px;
   margin: auto;
-
 }
 
 .table__cell {
@@ -173,6 +165,64 @@ div, h1, h2, h3, section {
   font-weight: normal;
   margin: 0;
   color: #000;
+  line-height: 1.2;
+  font-size: 18px;
+}
+
+.kaufman {
+  background-color: #1f1f1f;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.section-title_theme_dark {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto 20px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.15;
+  font-size: 60px;
+}
+
+.section-subtitle_theme_dark {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  font-weight: normal;
+  color: #fff;
+  line-height: 34px;
+  font-size: 24px;
+}
+
+.table_theme_dark {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1100px;
+  margin: auto;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  color: #fff;
+  margin-right: 0;
+  margin-top: 80px;
+}
+
+.table__cell__heading_theme_dark {
+  font-weight: 600;
+  margin: 0 0 20px;
+  color: #fff;
+  line-height: 1.15;
+  font-size: 24px;
+}
+
+.table__cell__text_theme_dark {
+  font-weight: normal;
+  margin: 0;
+  color: #fff;
   line-height: 1.2;
   font-size: 18px;
 }
