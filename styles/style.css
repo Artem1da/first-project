@@ -127,6 +127,16 @@
   font-size: 60px;
 }
 
+.section-title_theme_dark {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto 20px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.15;
+  font-size: 60px;
+}
+
 .section-subtitle {
   text-align: center;
   width: 60%;
@@ -137,7 +147,26 @@
   font-size: 24px;
 }
 
+.section-subtitle_theme_dark {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  font-weight: normal;
+  color: #fff;
+  line-height: 34px;
+  font-size: 24px;
+}
+
 .table {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1100px;
+  margin: auto;
+}
+
+.table_theme_dark {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -153,7 +182,14 @@
   margin: 60px 0 0;
 }
 
-.table__cell__heading {
+.table__cell_theme_dark {
+  width: 200px;
+  color: #fff;
+  margin-right: 0;
+  margin-top: 80px;
+}
+
+.table__heading {
   font-weight: 600;
   margin: 0 0 20px;
   color: #000;
@@ -161,10 +197,26 @@
   font-size: 24px;
 }
 
-.table__cell__text {
+.table__heading_theme_dark {
+  font-weight: 600;
+  margin: 0 0 20px;
+  color: #fff;
+  line-height: 1.15;
+  font-size: 24px;
+}
+
+.table__text {
   font-weight: normal;
   margin: 0;
   color: #000;
+  line-height: 1.2;
+  font-size: 18px;
+}
+
+.table__text_theme_dark {
+  font-weight: normal;
+  margin: 0;
+  color: #fff;
   line-height: 1.2;
   font-size: 18px;
 }
@@ -173,56 +225,4 @@
   background-color: #1f1f1f;
   padding-top: 90px;
   padding-bottom: 90px;
-}
-
-.section-title_theme_dark {
-  text-align: center;
-  width: 60%;
-  margin: 0 auto 20px;
-  font-weight: 600;
-  color: #fff;
-  line-height: 1.15;
-  font-size: 60px;
-}
-
-.section-subtitle_theme_dark {
-  text-align: center;
-  width: 60%;
-  margin: auto;
-  font-weight: normal;
-  color: #fff;
-  line-height: 34px;
-  font-size: 24px;
-}
-
-.table_theme_dark {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 1100px;
-  margin: auto;
-}
-
-.table__cell_theme_dark {
-  width: 200px;
-  color: #fff;
-  margin-right: 0;
-  margin-top: 80px;
-}
-
-.table__cell__heading_theme_dark {
-  font-weight: 600;
-  margin: 0 0 20px;
-  color: #fff;
-  line-height: 1.15;
-  font-size: 24px;
-}
-
-.table__cell__text_theme_dark {
-  font-weight: normal;
-  margin: 0;
-  color: #fff;
-  line-height: 1.2;
-  font-size: 18px;
 }
