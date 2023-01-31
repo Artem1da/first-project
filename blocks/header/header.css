@@ -1,6 +1,9 @@
 .header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     height: 100vh;
     min-height: 600px;
     max-height: 756px;
-    /* выше установили ограничения для секции */
   }
