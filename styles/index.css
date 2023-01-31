@@ -2,6 +2,17 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/description/description.css);
 @import url(../blocks/digits/digits.css);
+@import url(../blocks/techniques/techniques.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__image/_pic/cards__image_pic_attention.css);
+@import url(../blocks/cards/__image/_pic/cards__image_pic_recall.css);
+@import url(../blocks/cards/__image/_pic/cards__image_pic_interliving.css);
+@import url(../blocks/cards/__image/_pic/cards__image_pic_question.css);
+@import url(../blocks/cards/__image/_pic/cards__image_pic_competence.css);
+@import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__description/cards__description.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__square-pic/header__square-pic.css);
 @import url(../blocks/two-columns/two-columns.css);
@@ -30,6 +41,7 @@
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__main-illustration/header__main-illustration.css);
 @import url(../blocks/header/__square-pic/header__square-pic.css);
+
 
 
 @font-face {
@@ -68,7 +80,7 @@
     font-weight: 500;
   } 
   
-  /* это убрать, когда все доверстаешь. Чисто для проверки
-   div, h1, h2, h3, section {
+  /* Технические стили для проверки 
+   * {
     border: 1px solid red;
   } */
