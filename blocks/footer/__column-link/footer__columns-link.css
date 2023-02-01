@@ -6,6 +6,10 @@
     margin: 0 0 10px;
 }
 
+.footer__column-link:hover {
+    cursor: pointer;
+}
+
 .footer__column-link:last-of-type {
     margin: 0;
 }
