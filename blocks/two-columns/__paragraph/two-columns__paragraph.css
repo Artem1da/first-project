@@ -1,6 +1,5 @@
 .two-columns__paragraph {
     font-weight: normal;
-    margin: 0;
     color: #000;
     line-height: 34px;
     font-size: 24px;
@@ -9,7 +8,6 @@
 
   .two-columns__paragraph:first-of-type {
     font-weight: normal;
-    margin: 0;
     color: #000;
     line-height: 34px;
     font-size: 24px;
