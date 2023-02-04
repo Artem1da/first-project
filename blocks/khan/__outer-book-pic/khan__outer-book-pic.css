@@ -1,0 +1,6 @@
+/* свойства этого класса нужны, чтобы скрыть часть картинки */
+.khan__outer-book-pic {
+  width: 620px;
+  height: 608px;
+  overflow: hidden;
+}
