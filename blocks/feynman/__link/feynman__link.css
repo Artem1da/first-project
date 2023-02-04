@@ -2,9 +2,16 @@
   position: absolute;
   font-weight: normal;
   color: #2f80ed;
+  text-decoration: none;
   line-height: 51px;
   font-size: 36px;
   top: 50%;
   right: 48px;
   z-index: 2;
+  transition: opacity .5s ease;
+}
+
+.feynman__link:hover {
+  cursor: pointer;
+  opacity: .75;
 }

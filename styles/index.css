@@ -1,4 +1,5 @@
 @import url(../vendor/normalize.css);
+@import url(./fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/description/description.css);
 @import url(../blocks/digits/digits.css);
@@ -6,11 +7,6 @@
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__item/cards__item.css);
 @import url(../blocks/cards/__image/cards__image.css);
-@import url(../blocks/cards/__image/_pic/cards__image_pic_attention.css);
-@import url(../blocks/cards/__image/_pic/cards__image_pic_recall.css);
-@import url(../blocks/cards/__image/_pic/cards__image_pic_interliving.css);
-@import url(../blocks/cards/__image/_pic/cards__image_pic_question.css);
-@import url(../blocks/cards/__image/_pic/cards__image_pic_competence.css);
 @import url(../blocks/cards/__title/cards__title.css);
 @import url(../blocks/cards/__description/cards__description.css);
 @import url(../blocks/video/video.css);
@@ -31,6 +27,7 @@
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 @import url(../blocks/kaufman/kaufman.css);
+@import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-subtitle/section-subtitle.css);
 @import url(../blocks/table/table.css);
@@ -82,46 +79,9 @@
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 @import url(../blocks/footer/__column/footer__column.css);
+@import url(../blocks/rotation/rotation.css);
 
-
-
-@font-face {
-    src: url(./Inter/Inter-Bold.woff) format('woff');
-    font-family: 'Inter';
-    font-weight: bold;
-  } 
-  
-  @font-face {
-    src: url(./Inter/Inter-Bold.woff2) format('woff2');
-    font-family: 'Inter';
-    font-weight: bold;
-  } 
-  
-  @font-face {
-    src: url(./Inter/Inter-Regular.woff) format('woff');
-    font-family: 'Inter';
-    font-weight: normal;
-  } 
-  
-  @font-face {
-    src: url(./Inter/Inter-Regular.woff2) format('woff2');
-    font-family: 'Inter';
-    font-weight: normal;
-  }
-  
-  @font-face {
-    src: url(./Inter/Inter-SemiBold.woff) format('woff');
-    font-family: 'Inter';
-    font-weight: 500;
-  } 
-  
-  @font-face {
-    src: url(./Inter/Inter-SemiBold.woff2) format('woff2');
-    font-family: 'Inter';
-    font-weight: 500;
-  } 
-  
-  /* Технические стили для проверки
+  /* Технические стили для проверки 
    * {
     border: 1px solid red;
    } */
