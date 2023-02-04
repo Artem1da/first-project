@@ -1,11 +1,11 @@
 .section-subtitle_theme_dark {
-    position: relative; /* Задано, чтобы треугольник не перекрывал текст */
-    text-align: center;
-    width: 60%;
-    margin: auto;
-    font-weight: normal;
-    color: #fff;
-    line-height: 34px;
-    font-size: 24px;
-    z-index: 2; /* Задано, чтобы треугольник не перекрывал текст */
-  }
+  position: relative; /* Задано, чтобы треугольник не перекрывал текст */
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  font-weight: normal;
+  color: #fff;
+  line-height: 34px;
+  font-size: 24px;
+  z-index: 2; /* Задано, чтобы треугольник не перекрывал текст */
+}

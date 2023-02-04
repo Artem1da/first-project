@@ -1,7 +1,7 @@
 .video__iframes {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 316px;
-    margin: 50px auto -40px; /* Отрицательный отступ, чтобы видео "залезали" на следующую секцию */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 316px;
+  margin: 50px auto -40px; /* Отрицательный отступ, чтобы видео "залезали" на следующую секцию */
 }

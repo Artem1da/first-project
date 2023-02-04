@@ -1,8 +1,10 @@
 .table {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 1100px;
-    margin: auto;
-  }
+  position: relative; /* Задано, чтобы треугольник не перекрывал текст */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1100px;
+  margin: auto;
+  z-index: 2; /* Задано, чтобы треугольник не перекрывал текст */
+}

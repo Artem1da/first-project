@@ -1,10 +1,10 @@
 .resources__link {
-    width: 270px;
-    height: 38px;
-    transition: opacity .5s ease;
+  width: 270px;
+  height: 38px;
+  transition: opacity .5s ease;
 }
 
 .resources__link:hover {
-    cursor: pointer;
-    opacity: .75;
+  cursor: pointer;
+  opacity: .75;
 }
