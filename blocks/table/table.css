@@ -4,7 +4,9 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  list-style-type: none; /* Так как таблички являются семантически тегом ul, надо сбросить тип списка */
+  padding: 0;
   width: 1100px;
-  margin: auto;
+  margin: 0 auto;
   z-index: 2; /* Задано, чтобы треугольник не перекрывал текст */
 }

@@ -1,5 +1,4 @@
 @import url(../vendor/normalize.css);
-@import url(./fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
@@ -7,7 +6,7 @@
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__main-illustration/header__main-illustration.css);
 @import url(../blocks/header/__square-pic/header__square-pic.css);
-@import url(../blocks/logo/_place/logo.css);
+@import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
 @import url(../blocks/logo/_place/logo_place_footer.css);
 @import url(../blocks/description/description.css);
@@ -42,7 +41,6 @@
 @import url(../blocks/khan/__author/khan__author.css);
 @import url(../blocks/khan/__title/khan__title.css);
 @import url(../blocks/khan/__quote/khan__quote.css);
-@import url(../blocks/khan/__outer-book-pic/khan__outer-book-pic.css); /* Класс был добавлен, чтобы сделать overflow*/
 @import url(../blocks/khan/__quote-author/khan__quote-author.css);
 @import url(../blocks/khan/__quote-author-subline/khan__quote-author-subline.css);
 @import url(../blocks/khan/__book-container/khan__book-container.css);
@@ -61,10 +59,6 @@
 @import url(../blocks/resources/__link/resources__link.css);
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 @import url(../blocks/resources/__logo/resources__logo.css);
-@import url(../blocks/resources/__logo/_pic/resources__logo_pic_arzamas.css);
-@import url(../blocks/resources/__logo/_pic/resources__logo_pic_n1.css);
-@import url(../blocks/resources/__logo/_pic/resources__logo_pic_strelka.css);
-@import url(../blocks/resources/__logo/_pic/resources__logo_pic_polka.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
@@ -76,9 +70,10 @@
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 @import url(../blocks/footer/__column/footer__column.css);
+@import url(../vendor/fonts.css);
 @import url(../blocks/rotation/rotation.css); /* Блок ждя анимаций */
 
-  /* Технические стили для проверки 
+  /* Технические стили для проверки
    * {
     border: 1px solid red;
    } */

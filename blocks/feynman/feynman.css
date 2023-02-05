@@ -1,6 +1,7 @@
 .feynman {
   position: relative;
   background-color: #f2f2f2;
+  box-sizing: border-box;
   padding-top: 100px;
-  height: 792px; /* Подогнал высоту, чтобы ссылка оказалась на одном уровне с подзаголовком */
+  height: 843px; /* Взял высоту из дизайна в фигме */
 }

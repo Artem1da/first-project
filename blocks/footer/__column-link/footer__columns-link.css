@@ -2,8 +2,8 @@
   font-weight: normal;
   text-decoration: none;
   color: #fff;
-  line-height: 18px;
-  font-size: 18px;
+  line-height: 18px; /* Я в непонятках, нужно ли это менять. В брифе и макете указано 18px, а ревьюер говорит, что не соответствует(ревью: http://joxi.ru/eAOOeeltGkQBMA) */
+  font-size: 16px; /* А вот здесь поменял, так как в макете в фигме 16px, и как понял, ориентируемся на него */
   margin: 0 0 10px;
   transition: opacity .5s ease;
 }

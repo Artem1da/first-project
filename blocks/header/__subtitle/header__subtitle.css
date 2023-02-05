@@ -1,7 +1,8 @@
 .header__subtitle {
   position: absolute;
   text-align: left;
-  width: 388px;
+  max-width: 388px; /* max-width, чтобы на малых экранах элемент не занимал всегда ровно 388px */
+  width: 100%;
   font-weight: normal;
   color: #000;
   line-height: 25px;

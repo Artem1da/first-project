@@ -1,6 +1,9 @@
 .footer {
+  display: flex; /* Теперь внутренние элементы занимают всю высоту блкоа, а align-items: stretch включилось по умолчанию */
   background-color: #1f1f1f;
   padding-top: 60px;
   padding-bottom: 40px;
+  box-sizing: border-box;
+  min-height: 290px; /* задано в соответствии с макетом в фигме */
   margin: auto;
 }

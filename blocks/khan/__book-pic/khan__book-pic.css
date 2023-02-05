@@ -1,3 +1,7 @@
 .khan__book-pic {
-  margin: 0;
-} 
+  width: 620px;
+  height: 608px;
+  object-fit: cover; /* Используем для скрытия части картинки*/
+  object-position: left top; /* И ее выравнивания */
+  margin: 0 48px 0 0;
+}

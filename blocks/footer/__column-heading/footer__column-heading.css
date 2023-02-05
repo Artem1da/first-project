@@ -1,7 +1,7 @@
 .footer__column-heading {
   font-weight: 600;
   color: #fff;
-  line-height: 18px;
+  line-height: 30px; /* В брифе 18px: http://joxi.ru/Vm6YaavTKv1aqr в макете 30px. Ревьюер написал, что 18px неверно, заменил на 30px (Фигма http://joxi.ru/zAN3eeyiwjXkMr)*/
   font-size: 18px;
   margin: 0 0 20px;
 }
