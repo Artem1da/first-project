@@ -3,6 +3,8 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
+  list-style-type: none; /* Так как таблички являются семантически тегом ul, надо сбросить тип списка */
+  padding: 0;
   width: 920px;
-  margin: auto;
+  margin: 0 auto;
 }
